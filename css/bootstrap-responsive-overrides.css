@@ -1,0 +1,127 @@
+@media (max-width: 979px) {
+
+
+    .navbar .brand {
+ 
+
+  line-height: 20px;
+ 
+  color: #fff;
+  
+}
+
+	.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+		background-color: #C41E20;
+	}
+
+  .navbar-inverse .nav > li > a {
+    float: none;
+    padding: 5px;
+    color: white;
+    border-right: none;
+    text-decoration: none;
+    text-shadow: none;
+  }
+
+
+
+  .dropdown-menu > li > a {
+    display: block;
+    padding: 9px 20px;
+    clear: both;
+    border-bottom: none;
+    font-weight: normal;
+    line-height: 15px;
+    color: white;
+    white-space: nowrap;
+  }
+
+  .navbar-inverse .nav-collapse .nav > li > a:hover,
+  .navbar-inverse .nav-collapse .nav > li > a:focus,
+  .navbar-inverse .nav-collapse .dropdown-menu a:hover,
+  .navbar-inverse .nav-collapse .dropdown-menu a:focus {
+    background-color: #C41E20;
+  }
+
+  .navbar-inverse .nav-collapse .nav > li > a,
+  .navbar-inverse .nav-collapse .dropdown-menu a {
+    color: #eee;
+  }
+
+
+  .navbar-inverse .nav > li > a {
+    float: none;
+    padding: 2px 15px;
+    color: white;
+    border-right: none;
+    text-decoration: none;
+    text-shadow: none;
+  }
+
+
+
+
+
+
+.navbar-inverse .navbar-search .search-query {
+ color: #ffffff;
+  background-color: transparent;
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-top: 10px;
+  border: none;
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  box-shadow:none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+
+  padding: 4px 14px;
+  margin-bottom: 0;
+  border:none;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: inherit;
+  outline: 0;
+  -webkit-border-radius: 0px;
+  padding-left: 35px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  width: 0px;
+
+  background-image: url(../img/search-white.png);
+  background-repeat: no-repeat;
+
+  background-position: 1px 1px;
+
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+
+}
+
+
+.navbar-inverse .navbar-search .search-query:focus,
+.navbar-inverse .navbar-search .search-query.focused {
+
+  color: white;
+  text-shadow: none;
+  background-color: transparent;
+  
+  outline: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  
+padding-left: 25px;
+
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+}

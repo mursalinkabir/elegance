@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <title>Elegance </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Le styles -->
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-overrides.css">
+
+  <link rel="stylesheet" href="css/bootstrap-responsive.css">
+  <link rel="stylesheet" href="css/bootstrap-responsive-overrides.css">
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet">
+
+
+  <style type="text/css">
+  body:before{ 
+   content: "";
+   position: fixed;
+   top: -10px;
+   left: 0;
+   width: 100%;
+   height: 10px;
+   z-index: 100;
+ /*  -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   box-shadow: 0px 0px 10px rgba(0,0,0,.8);*/
+ }
+
+ body {
+  border-top: 5px solid #508ddd;
+  padding-bottom: 40px;
+}
+</style>
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<script src="js/slider/jquery-1.7.1.min.js"></script>
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <![endif]-->
+
+      <!--Slider Css n Js-->
+      <link rel="stylesheet" href="css/slider/iview.css" />
+      <link rel="stylesheet" href="css/slider/skin1/style.css" />
+
+
+
+      <script type="text/javascript" src="js/slider/raphael-min.js"></script>
+      <script type="text/javascript" src="js/slider/jquery.easing.js"></script>
+
+      <script src="js/slider/iview.js"></script>
+      <script>
+      $(document).ready(function(){
+        $('#iview').iView({
+          pauseTime: 7000,
+          pauseOnHover: true,
+          directionNavHoverOpacity: 0,
+          autoAdvance: false
+        });
+      });
+      </script>
+      <!--End Slider Css n Js-->
+
+
+      <!--Css n js of Direction Aware Hover-->
+      <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
+      <link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css'/>
+      <script src="js/modernizr.custom.97074.js"></script>
+      <!--Css n js of Direction Aware Hover END-->
+
+
+      <!--BxSlider Begin-->
+      <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css"/>
+
+      <!--Accordion Script-->
+
+
+
+
+
+      <!-- Fav and touch icons -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+      <link rel="shortcut icon" href="ico/favicon.png">
+    </head>
+
+    <body>
+
+
+
+
+
+
+      <div class="container" id="nav-container">
+        <div class="navbar navbar-inverse" >
+          <div class="navbar-inner">
+            <div class="container">
+              <a class="brand" href="#">Elegance</a>
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <div class="nav-collapse collapse navbar-responsive-collapse">
+
+                <ul class="nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Menu Item</a></li>
+                      <li><a href="#">Menu Item</a></li>
+                      <li><a href="#">Menu Item</a></li>
+
+                      <li><a href="#">Menu Item</a></li>
+                      <li><a href="#">Menu Item</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+
+                <form class="navbar-search pull-right">
+                  <input type="text" class="search-query">
+                </form>
+
+
+
+
+
+              </div><!-- /.nav-collapse -->
+            </div>
+          </div><!-- /navbar-inner -->
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+      <!--Main Slider -->
+      
+      <div id="iview">
+        <div data-iview:image="photos/photo1.jpg" data-iview:transition="fade">
+          <div class="iview-caption caption1" data-x="80" data-y="200">Grace</div>
+          <div class="iview-caption" data-x="80" data-y="275" data-transition="wipeRight">Uses iView, the world's most awesome jQuery Image & Content Slider</div>
+          <div class="iview-caption" data-x="254" data-y="320" data-transition="wipeLeft">It's easy, yet 100% customizable</div>
+        </div>
+
+        <div data-iview:image="photos/photo2.jpg" data-iview:transition="fade" data-iview:pausetime="3000">
+          <div class="iview-caption caption5" data-x="60" data-y="280" data-transition="wipeDown">Captions can be positioned and resized freely</div>
+          <div class="iview-caption caption6" data-x="300" data-y="350" data-transition="wipeUp"><a href="#">Example URL-link</a></div>
+        </div>
+
+        <div data-iview:image="photos/video.jpg" data-iview:type="video" data-iview:transition="fade">
+          <iframe src="http://player.vimeo.com/video/11475955?byline=1&amp;portrait=0" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          <div class="iview-caption caption2" data-x="450" data-y="340" data-transition="wipeRight">Video</div>
+          <div class="iview-caption caption3" data-x="600" data-y="345" data-transition="wipeLeft">Support</div>
+        </div>
+
+        <div data-iview:image="photos/photo3.jpg" data-iview:transition="fade">
+          <div class="iview-caption caption4" data-x="50" data-y="80" data-width="312" data-transition="fade">Some of iView's Options:</div>
+          <div class="iview-caption blackcaption" data-x="50" data-y="135" data-transition="wipeLeft" data-easing="easeInOutElastic">Touch swipe for iOS and Android devices</div>
+          <div class="iview-caption blackcaption" data-x="50" data-y="172" data-transition="wipeLeft" data-easing="easeInOutElastic">Image And Thumbs Fully Resizable</div>
+          <div class="iview-caption blackcaption" data-x="50" data-y="209" data-transition="wipeLeft" data-easing="easeInOutElastic">Customizable Transition Effect</div>
+          <div class="iview-caption blackcaption" data-x="50" data-y="246" data-transition="wipeLeft" data-easing="easeInOutElastic">Freely Positionable and Stylable Captions</div>
+          <div class="iview-caption blackcaption" data-x="50" data-y="283" data-transition="wipeLeft" data-easing="easeInOutElastic">Cross Browser Compatibility!</div>
+        </div>
+
+        <div data-iview:image="photos/photo4.jpg" data-iview:transition="fade">
+          <div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-height="480" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you <b><i>all have been waiting for</b></i>!<br><br>Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message.<br><br>All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
+        </div>
+
+        <div data-iview:image="photos/photo5.jpg" data-iview:transition="fade">
+          <div class="iview-caption caption5" data-x="60" data-y="150" data-transition="wipeLeft">What are you waiting for?</div>
+          <div class="iview-caption caption6" data-x="160" data-y="230" data-transition="wipeRight">Get it Now!</div>
+        </div>
+
+
+        <div class="copy">Made by <a href="http://iprodev.com/">Hemn Chawroka</a>.<br>Copyright &copy 2012. All rights reserved.</div>
+
+      </div>
+
+      <!--Main Slider end -->
+
+      <!--Fetures-->
+      
+
+
+      <div class="row-fluid" id='features'>
+
+
+        <div class="feature">
+          <div class="row">
+
+            <img src="img/feature1.png" class="img-circle">
+
+          </div>
+          <h2>Easy Settings</h2>
+          <p>Loren Ipsum dolor sit amet ihdiufbh sdfisdf sifn sgfb</p>
+
+
+
+        </div>
+
+        <div class="feature">
+          <div class="row">
+
+            <img src="img/feature2.png" class="img-circle">
+
+          </div>
+          <h2>Easy Settings</h2>
+          <p>Loren Ipsum dolor sit amet ihdiufbh sdfisdf sifn sgfb</p>
+
+
+
+        </div>
+
+        <div class="feature">
+          <div class="row">
+
+            <img src="img/feature3.png" class="img-circle">
+
+          </div>
+          <h2>Easy Settings</h2>
+          <p>Loren Ipsum dolor sit amet ihdiufbh sdfisdf sifn sgfb</p>
+
+
+
+        </div>
+
+        <div class="feature">
+          <div class="row">
+
+            <img src="img/feature4.png" class="img-circle">
+
+          </div>
+          <h2>Easy Settings</h2>
+          <p>Loren Ipsum dolor sit amet ihdiufbh sdfisdf sifn sgfb</p>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+      <!-- PORTFOLIO Begin -->
+      
+      <div class="row">
+
+        <div class="portfolio_wrapper">
+          <div class="section_header">
+            <h1>Our <b>Work</b></h1>
+            <h3>Check Out Our Work at Themeforest</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum 
+              id tincidunt nunc faucibus. Ut neque eros,</p>
+
+            </div>
+
+
+
+
+            <section>
+
+              <ul id="da-thumbs" class="da-thumbs slide clearfix">
+                <li>
+                  <a href="http://dribbble.com/shots/505046-Menu">
+                    <img src="img/port1.jpg" />
+                    <div><span>Menu by Simon Jensen</span></div>
+                  </a>
+                </li>
+
+
+                <li>
+                  <a href="http://dribbble.com/shots/504336-TN-Aquarium">
+                    <img src="img/port2.jpg" />
+                    <div><span>TN Aquarium by Charlie Gann</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://dribbble.com/shots/504197-Mr-Crabs">
+                    <img src="img/port3.jpg" />
+                    <div><span>Mr. Crabs by John Generalov</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://dribbble.com/shots/503731-Gallery-of-Mo-2-Mo-logo">
+                    <img src="img/port4.jpg" />
+                    <div><span>Gallery of Mo 2.Mo logo by Adam Campion</span></div>
+                  </a>
+                </li>
+                <li>  
+                  <a href="http://dribbble.com/shots/503058-Ice-Cream-nom-nom">
+                    <img src="img/port5.jpg" />
+                    <div><span>Ice Cream - nom nom by Eight Hour Day</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://dribbble.com/shots/502927-My-Muse">
+                    <img src="img/port6.jpg" />
+                    <div><span>My Muse by Zachary Horst</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
+                    <img src="img/port7.jpg" />
+                    <div><span>Natalie & Justin Cleaning by Justin Younger</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://dribbble.com/shots/502523-App-Preview">
+                    <img src="img/port8.jpg" />
+                    <div><span>App Preview by Ryan Deshler</span></div>
+                  </a>
+                </li>
+
+
+              </ul>
+
+
+            </section>
+
+
+
+            <div class="purchase_bar ">
+              <div class="span8 offset1">
+                <p class="">Buy Our Theme and Get Elegant Solution for Your Business
+
+                </p>
+              </div> 
+              <div class="span4">  
+                <div class="pur_button">
+                  Purchase
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!--Testimonial & Accordion Block-->
+        <div class="testi_acc_wrapper">
+
+          <div class="span6">
+            <div class="section_header">
+              <h1>Our <b>Clients</b></h1>
+              <h3>Hear it From Them</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum 
+                id tincidunt nunc faucibus. Ut neque eros,</p>
+
+              </div>
+
+              <div class="testimonial">
+                <img src="img/female.jpg" alt="fem" class="img-circle">
+                <div class="testitext">I have downloaded the Theme With its documentation and the Theme was amazingly beautiful and its content is highly detailed.People will find this theme very interesting and beautiful</div>
+
+              </div>
+              <hr>
+              <div class="testimonial">
+                <img src="img/female.jpg" alt="fem" class="img-circle">
+                <div class="testitext">I have downloaded the Theme With its documentation and the Theme was amazingly beautiful and its content is highly detailed.People will find this theme very interesting and beautiful</div>
+
+              </div>
+            </div>
+            <div class="span6 offset1">
+              <!--Accordion -->
+              <div class="section_header">
+                <h1>Top <b>Stories</b></h1>
+                <h3>What We are Into.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum 
+                  id tincidunt nunc faucibus. Ut neque eros,</p>
+
+                </div>
+
+                <div class="accordion ">
+                  <div class="container">
+                    <section>
+                      <div id="container_buttons">
+
+
+                        <div style="clear:both"></div>
+                        <ul>
+                          <li class="toggle">
+                            <a href="#One">A clock made in CSS3 | NO Javascript</a>
+                            <p id="One">
+                              Lets start learning CSS3 before its too late, I just saw a website which amazed me with its animation effects. First I thought that the site is using some JQuery libraries but when I actually went into the code, I found it is CSS3. So I started learning it, and today I made my first  <a href="http://webstutorial.com/css3-clock/css3">Read more...</a>
+                            </p>
+                          </li>
+                          <li class="toggle">
+                            <a href="#Two">Learn CakePHP From Novice to Professional : Part 2</a>
+                            <p id="Two">
+                              Model-View-Controller Cake enforces an MVC structure for your web applications. Basically, it effectively separates typical operations into specific areas: MODELS : for all your database interaction VIEWS : for all your output and displays CONTROLLERS : for all your commands/scripts for input and program flow The typical PHP application mixes each of these three functions  <a href="http://webstutorial.com/learn-cakephp-novice-professional-part-2/framework">Read more...</a>
+                            </p>
+                          </li>
+                          <li class="toggle">
+                            <a href="#Three">Learn CakePHP From Novice to Professional : Part 1</a>
+                            <p id="Three">
+                              This guide is for beginners to CakePHP. Whether or not you have much experience with the PHP scripting language, working in Cake will require some new methods you may or may not have tried before. If you don't know what a "has-and-belongs-to-many" relationship is, don't know how to build your own class object, or don't  <a href="http://webstutorial.com/learn-cakephp-novice-professional-part-1/framework">Read more...</a>
+                            </p>
+                          </li>
+
+                          <li class="toggle">
+                            <a href="#Four">Google Maps Server Side Geocoding Using PHP and Infobox Fully AJAX</a>
+                            <p id="Four">
+                              Recently I got a new project of real estate where I had to display about 1000 of projects on the google map. I was having the address of 1000 projects, so I started with my php and js code. When I coded and started testing, I found that on the map only 20-30 markers were  <a href="http://webstutorial.com/google-server-side-geocoding-php-infobox/website-tweaks/google">Read more...</a>
+                            </p>
+                          </li>
+
+                          <li class="toggle">
+                            <a href="#Five">Learn Codeigniter | Codeigniter Tutorial | Codeigniter Lessons | Part 1 | Webs Tutorial</a>
+                            <p id="Five">
+                              What is CodeIgniter? CodeIgniter is an open source PHP framework. This framework is used to build web applications and websites. CodeIgniter is best for developers who are into front-end development. It's easy to learn and it's fully flexibe. To learn CI (CodeIgniter), you should know PHP, MYSQL, OOPs and MVC. If you are new to  <a href="http://webstutorial.com/codeigniter-tutorials-codeigniter-lessons-part-1/programming/php">Read more...</a>
+                            </p>
+                          </li>
+                        </ul>
+
+                      </div>
+                    </section>
+                  </div>
+                </div><!--Accordion END -->
+              </div>
+
+
+            </div>
+            <!--Testimonial END-->
+
+
+            <!--Client Logo-->
+            <div class="logo_wrapper ">
+
+              <div class="row">
+                <div class="span12">
+                  <div class="section_header">
+                    <h1>Our  <b>Clients</b></h1>
+                    <h3>They have given us opportunity and we have stood on Their Expectation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum 
+                      id tincidunt nunc faucibus. Ut neque eros,</p>
+
+                    </div>
+                    <div class="logoslide clearfix">
+                      <ul class="slider1">
+                        <li><img src="img/logo1.png" /></li>
+                        <li><img src="img/logo2.png" /></li>
+                        <li><img src="img/logo3.png" /></li>
+                        <li><img src="img/logo4.png" /></li>
+                        <li><img src="img/logo5.png" /></li>
+                        <li><img src="img/logo6.png" /></li>
+                        <li><img src="img/logo7.png" /></li>
+
+                      </ul>
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+
+              <footer>
+                <div class="footer_wrapper ">
+                  <div class="section_header">
+                    <h1>Get in  <b>Touch</b></h1>
+                    <h3>Get in Touch with us . We look Forward to Hear it From you.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum 
+                      id tincidunt nunc faucibus. Ut neque eros,</p>
+
+                    </div>
+
+
+
+                    <div class="span4 offset1">
+                      <div class="foot_topbar">
+                       <div class="foot_top_text">
+                         CATEGORIES
+
+                       </div>
+                       <div class="foot_body">
+                        <ul>
+                          <li>+ Learn HTML & CSS</li>
+                          <li>+ Teach Yourself Coding </li>
+                          <li>+ Knowled of PHP</li>
+                          <li>+ Custom Coding</li>
+                          <li>+ Full Size Documentation </li>
+                        </ul>
+
+                      </div>
+                    </div> 
+
+
+                  </div>
+                  <div class="span4">
+                   <div class="foot_topbar">
+
+
+                     <div class="foot_top_text">
+                      PHOTO-STREAM
+
+                    </div>
+                  </div>
+                  <div class="flickr_stream">
+                    <div id="flickr_badge_wrapper"><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=latest&size=s&layout=x&source=user&user=80307667@N04"></script></div>
+
+                  </div>
+
+
+
+                </div>
+
+                <div class="span4">
+                 <div class="foot_topbar">
+
+
+                   <div class="foot_top_text">
+                    Latest Tweets
+
+                  </div>
+                </div>
+                <div class="widget twitter-widget">
+
+                  <div class="tweet-post">
+                    <p>Check Out Dtbaker's Arduino Sales Notification System <a href="#">http://t.co/ WBFKIWHJ</a></p>
+                    <span>42 days ago</span>
+                  </div>
+                  <div class="tweet-post">
+                    <p>Community Superstar Winner – OrganicBeeMedia <a href="#"> http://t.co/2Fs1nnMj</a></p>
+                    <span>42 days ago</span>
+                  </div>
+                  <div class="tweet-post">
+                    <p>Check Out Dtbaker's Arduino Sales Notification System <a href="#">http://t.co/ WBFKIWHJ</a></p>
+                    <span>42 days ago</span>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+
+            </div>
+            <div class="footer_bottom clearfix">
+              <div class="spna12">
+                <div class="footer_text">
+                  <p>Copyright <b>CODEHOUND</b> <br> All Right Reserved</p>
+                </div>
+                <div class="breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><a href="#">Home</a> <span class="divider">/</span></li>
+                    <li><a href="#">About </a> <span class="divider">/</span></li>
+                    <li><a href="#">Contact </a> <span class="divider">/</span></li>
+                    <li><a href="#">Services </a> <span class="divider">/</span></li>
+                    <li><a href="#">News </a> <span class="divider">/</span></li>
+                    <li><a href="#">Blog </a> <span class="divider">/</span></li>
+                    <li class="active">Data</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+
+
+          </footer>
+
+        </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        slideWidth: 900,
+        minSlides: 4,
+        maxSlides: 5,
+        slideMargin: 10
+      });
+    });
+
+
+
+
+
+    </script>
+
+  </script>
+  <!--Js of Hover Direction-->
+  <script type="text/javascript" src="js/jquery.hoverdir.js"></script>  
+  <script type="text/javascript">
+  $(function() {
+
+    $(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+  });
+  </script>
+
+  <!--Js of Hover Direction End-->
+  <!--Top nav Js-->
+  <script src="js/superfish.js"></script>
+  <script>
+
+
+
+  $(document).ready(function(){
+
+        // initialise plugin
+        var example = $('#example').superfish({
+
+
+        });
+
+      });
+
+
+  </script>
+  <!--Top nav Js END-->
+
+  <script src="js/bootstrap-transition.js"></script>
+  <script src="js/bootstrap-alert.js"></script>
+  <script src="js/bootstrap-modal.js"></script>
+  <script src="js/bootstrap-dropdown.js"></script>
+  <script src="js/bootstrap-scrollspy.js"></script>
+  <script src="js/bootstrap-tab.js"></script>
+  <script src="js/bootstrap-tooltip.js"></script>
+  <script src="js/bootstrap-popover.js"></script>
+  <script src="js/bootstrap-button.js"></script>
+  <script src="js/bootstrap-collapse.js"></script>
+  <script src="js/bootstrap-carousel.js"></script>
+  <script src="js/bootstrap-typeahead.js"></script>
+
+</body>
+</html>
