@@ -37,6 +37,12 @@ Dropdown Seperator: #960A09
 
 }
 
+.navbar-inverse .brand:hover{
+
+	color: #508ddd;
+
+}
+
 ul.nav li.dropdown:hover > ul.dropdown-menu{
 	display: block;
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Elegance </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
@@ -20,8 +20,13 @@
   <link href="css/style-responsive.css" rel="stylesheet">
 
 
+  <link rel="stylesheet" type="text/css" href="css/style2.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+
   <style type="text/css">
-  body:before{ 
+  body:before{
    content: "";
    position: fixed;
    top: -10px;
@@ -40,7 +45,7 @@
 }
 </style>
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
-<script src="js/slider/jquery-1.7.1.min.js"></script>
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -52,28 +57,14 @@
 
 
 
-      <script type="text/javascript" src="js/slider/raphael-min.js"></script>
-      <script type="text/javascript" src="js/slider/jquery.easing.js"></script>
 
-      <script src="js/slider/iview.js"></script>
-      <script>
-      $(document).ready(function(){
-        $('#iview').iView({
-          pauseTime: 7000,
-          pauseOnHover: true,
-          directionNavHoverOpacity: 0,
-          autoAdvance: false
-        });
-      });
-      </script>
       <!--End Slider Css n Js-->
 
 
-      <!--Css n js of Direction Aware Hover-->
-      <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
-      <link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css'/>
-      <script src="js/modernizr.custom.97074.js"></script>
-      <!--Css n js of Direction Aware Hover END-->
+
+
+      <script src="js/modernizr.custom.js"></script>
+
 
 
       <!--BxSlider Begin-->
@@ -157,7 +148,7 @@
 
 
       <!--Main Slider -->
-      
+
       <div id="iview">
         <div data-iview:image="photos/photo1.jpg" data-iview:transition="fade">
           <div class="iview-caption caption1" data-x="80" data-y="200">Grace</div>
@@ -202,7 +193,7 @@
       <!--Main Slider end -->
 
       <!--Fetures-->
-      
+
 
 
       <div class="row-fluid" id='features'>
@@ -269,341 +260,317 @@
 
 
       <!-- PORTFOLIO Begin -->
-      
-      <div class="row">
 
-        <div class="portfolio_wrapper">
-          <div class="section_header">
-            <h1>Our <b>Work</b></h1>
-            <h3>Check Out Our Work at Themeforest</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum 
-              id tincidunt nunc faucibus. Ut neque eros,</p>
+
+      <div class="row-fluid">
+
+        <ul class="portfolio-grid">
+          <li>
+            <figure>
+              <a href="#image-1"><img src="images/6.png" alt="img01"></a>
+              <figcaption>
+                <h3>Game Center</h3>
+                <span>Jacob Cummings</span>
+                <a href="http://dribbble.com/shots/1118904-Game-Center"><img src="img/link-icon.png" alt=""></a>
+              </figcaption>
+            </figure>
+            <div class="lb-overlay" id="image-1">
+              <img src="img/port1.png" alt="image01" />
+
+              <a href="#page" class="lb-close">x Close</a>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <a href="#image-2"><img src="images/4.png" alt="img04"></a>
+              <figcaption>
+                <h3>Settings</h3>
+                <span>Jacob Cummings</span>
+                <a href="http://dribbble.com/shots/1116685-Settings"><img src="img/link-icon.png" alt=""></a>
+              </figcaption>
+            </figure>
+            <div class="lb-overlay" id="image-2">
+              <img src="img/port2.png" alt="image01" />
+
+              <a href="#page" class="lb-close">x Close</a>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <a href="#image-3"><img src="images/2.png" alt="img02"></a>
+              <figcaption>
+                <h3>Music</h3>
+                <span>Jacob Cummings</span>
+                <a href="http://dribbble.com/shots/1115960-Music"><img src="img/link-icon.png" alt=""></a>
+              </figcaption>
+            </figure>
+            <div class="lb-overlay" id="image-3">
+              <img src="img/port3.png" alt="image01" />
+
+              <a href="#page" class="lb-close">x Close</a>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <a href="#image-4"><img src="images/5.png" alt="img05"></a>
+              <figcaption>
+                <h3>Safari</h3>
+                <span>Jacob Cummings</span>
+                <a href="http://dribbble.com/shots/1116775-Safari"><img src="img/link-icon.png" alt=""></a>
+              </figcaption>
+            </figure>
+            <div class="lb-overlay" id="image-4">
+              <img src="img/port4.png" alt="image01" />
+
+              <a href="#page" class="lb-close">x Close</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+
+
+
+
+
+    <!--   <div class="row-fluid">
+
+        <section>
+          <ul class="lb-album">
+            <li>
+              <a href="#image-1">
+                <img src="img/port1.png" alt="image01">
+
+              </a>
+
+              <div class="port-caption">
+                <h3>jQuery Logo</h3>
+                <p>Loren ipsum dolor sit amet adur vytuei kojf wexz horo</p>
+
+              </div>
+
+
+
+            </li>
+            <li>
+              <a href="#image-2">
+                <img src="img/port2.png" alt="image01">
+
+              </a>
+              <div class="lb-overlay" id="image-2">
+                <img src="img/port2.png" alt="image01" />
+
+                <a href="#page" class="lb-close">x Close</a>
+              </div>
+            </li>
+            <li>
+              <a href="#image-3">
+                <img src="img/port3.png" alt="image01">
+
+              </a>
+              <div class="lb-overlay" id="image-3">
+                <img src="img/port3.png" alt="image01" />
+
+                <a href="#page" class="lb-close">x Close</a>
+              </div>
+            </li>
+            <li>
+              <a href="#image-4">
+                <img src="img/port4.png" alt="image04">
+
+              </a>
+              <div class="lb-overlay" id="image-4">
+                <img src="img/port4.png" alt="image01" />
+
+                <a href="#page" class="lb-close">x Close</a>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+
+      </div>
+ -->
+
+
+
+
+
+      <!--Client Logo-->
+      <div class="logo_wrapper ">
+
+        <div class="row-fluid">
+          <div class="span12">
+            <div class="section_header">
+              <h1>Our  <b>Clients</b></h1>
+              <h3>They have given us opportunity and we have stood on Their Expectation</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum
+                id tincidunt nunc faucibus. Ut neque eros,</p>
+
+              </div>
+              <div class="logoslide clearfix">
+                <ul class="slider1">
+                  <li><div class="logo"><img src="img/logo1.png" /></div></li>
+                  <li><div class="logo"><img src="img/logo2.png" /></div></li>
+                  <li><div class="logo"><img src="img/logo3.png" /></div></li>
+                  <li><div class="logo"><img src="img/logo4.png" /></div></li>
+                  <li><div class="logo"><img src="img/logo5.png" /></div></li>
+                  <li><div class="logo"><img src="img/logo6.png" /></div></li>
+                  <li><div class="logo"><img src="img/logo7.png" /></div></li>
+
+                </ul>
+              </div>
+
+
+
 
             </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <footer>
+          <div class="footer_wrapper ">
+            <div class="section_header">
+              <h1>Get in  <b>Touch</b></h1>
+              <h3>Get in Touch with us . We look Forward to Hear it From you.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum
+                id tincidunt nunc faucibus. Ut neque eros,</p>
+
+              </div>
 
 
 
+              <div class="span4 offset1">
+                <div class="foot_topbar">
+                 <div class="foot_top_text">
+                   CATEGORIES
 
-            <section>
+                 </div>
+                 <div class="foot_body">
+                  <ul>
+                    <li>+ Learn HTML & CSS</li>
+                    <li>+ Teach Yourself Coding </li>
+                    <li>+ Knowled of PHP</li>
+                    <li>+ Custom Coding</li>
+                    <li>+ Full Size Documentation </li>
+                  </ul>
 
-              <ul id="da-thumbs" class="da-thumbs slide clearfix">
-                <li>
-                  <a href="http://dribbble.com/shots/505046-Menu">
-                    <img src="img/port1.jpg" />
-                    <div><span>Menu by Simon Jensen</span></div>
-                  </a>
-                </li>
-
-
-                <li>
-                  <a href="http://dribbble.com/shots/504336-TN-Aquarium">
-                    <img src="img/port2.jpg" />
-                    <div><span>TN Aquarium by Charlie Gann</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="http://dribbble.com/shots/504197-Mr-Crabs">
-                    <img src="img/port3.jpg" />
-                    <div><span>Mr. Crabs by John Generalov</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="http://dribbble.com/shots/503731-Gallery-of-Mo-2-Mo-logo">
-                    <img src="img/port4.jpg" />
-                    <div><span>Gallery of Mo 2.Mo logo by Adam Campion</span></div>
-                  </a>
-                </li>
-                <li>  
-                  <a href="http://dribbble.com/shots/503058-Ice-Cream-nom-nom">
-                    <img src="img/port5.jpg" />
-                    <div><span>Ice Cream - nom nom by Eight Hour Day</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="http://dribbble.com/shots/502927-My-Muse">
-                    <img src="img/port6.jpg" />
-                    <div><span>My Muse by Zachary Horst</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
-                    <img src="img/port7.jpg" />
-                    <div><span>Natalie & Justin Cleaning by Justin Younger</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="http://dribbble.com/shots/502523-App-Preview">
-                    <img src="img/port8.jpg" />
-                    <div><span>App Preview by Ryan Deshler</span></div>
-                  </a>
-                </li>
-
-
-              </ul>
-
-
-            </section>
-
-
-
-            <div class="purchase_bar ">
-              <div class="span8 offset1">
-                <p class="">Buy Our Theme and Get Elegant Solution for Your Business
-
-                </p>
-              </div> 
-              <div class="span4">  
-                <div class="pur_button">
-                  Purchase
                 </div>
               </div>
 
 
             </div>
+            <div class="span4">
+             <div class="foot_topbar">
+
+
+               <div class="foot_top_text">
+                PHOTO-STREAM
+
+              </div>
+            </div>
+            <div class="flickr_stream">
+              <div id="flickr_badge_wrapper"><!-- <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=latest&size=s&layout=x&source=user&user=80307667@N04"></script> --></div>
+
+            </div>
+
+
 
           </div>
+
+          <div class="span4">
+           <div class="foot_topbar">
+
+
+             <div class="foot_top_text">
+              Latest Tweets
+
+            </div>
+          </div>
+          <div class="widget twitter-widget">
+
+            <div class="tweet-post">
+              <p>Check Out Dtbaker's Arduino Sales Notification System <a href="#">http://t.co/ WBFKIWHJ</a></p>
+              <span>42 days ago</span>
+            </div>
+            <div class="tweet-post">
+              <p>Community Superstar Winner – OrganicBeeMedia <a href="#"> http://t.co/2Fs1nnMj</a></p>
+              <span>42 days ago</span>
+            </div>
+            <div class="tweet-post">
+              <p>Check Out Dtbaker's Arduino Sales Notification System <a href="#">http://t.co/ WBFKIWHJ</a></p>
+              <span>42 days ago</span>
+            </div>
+          </div>
+
 
         </div>
 
 
 
-        <!--Testimonial & Accordion Block-->
-        <div class="testi_acc_wrapper">
+      </div>
+      <div class="footer_bottom clearfix">
+        <div class="spna12">
+          <div class="footer_text">
+            <p>Copyright <b>CODEHOUND</b> <br> All Right Reserved</p>
+          </div>
+          <div class="breadcrumbs">
+            <ul class="breadcrumb">
+              <li><a href="#">Home</a> <span class="divider">/</span></li>
+              <li><a href="#">About </a> <span class="divider">/</span></li>
+              <li><a href="#">Contact </a> <span class="divider">/</span></li>
+              <li><a href="#">Services </a> <span class="divider">/</span></li>
+              <li><a href="#">News </a> <span class="divider">/</span></li>
+              <li><a href="#">Blog </a> <span class="divider">/</span></li>
+              <li class="active">Data</li>
+            </ul>
+          </div>
+        </div>
 
-          <div class="span6">
-            <div class="section_header">
-              <h1>Our <b>Clients</b></h1>
-              <h3>Hear it From Them</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum 
-                id tincidunt nunc faucibus. Ut neque eros,</p>
-
-              </div>
-
-              <div class="testimonial">
-                <img src="img/female.jpg" alt="fem" class="img-circle">
-                <div class="testitext">I have downloaded the Theme With its documentation and the Theme was amazingly beautiful and its content is highly detailed.People will find this theme very interesting and beautiful</div>
-
-              </div>
-              <hr>
-              <div class="testimonial">
-                <img src="img/female.jpg" alt="fem" class="img-circle">
-                <div class="testitext">I have downloaded the Theme With its documentation and the Theme was amazingly beautiful and its content is highly detailed.People will find this theme very interesting and beautiful</div>
-
-              </div>
-            </div>
-            <div class="span6 offset1">
-              <!--Accordion -->
-              <div class="section_header">
-                <h1>Top <b>Stories</b></h1>
-                <h3>What We are Into.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum 
-                  id tincidunt nunc faucibus. Ut neque eros,</p>
-
-                </div>
-
-                <div class="accordion ">
-                  <div class="container">
-                    <section>
-                      <div id="container_buttons">
+      </div>
 
 
-                        <div style="clear:both"></div>
-                        <ul>
-                          <li class="toggle">
-                            <a href="#One">A clock made in CSS3 | NO Javascript</a>
-                            <p id="One">
-                              Lets start learning CSS3 before its too late, I just saw a website which amazed me with its animation effects. First I thought that the site is using some JQuery libraries but when I actually went into the code, I found it is CSS3. So I started learning it, and today I made my first  <a href="http://webstutorial.com/css3-clock/css3">Read more...</a>
-                            </p>
-                          </li>
-                          <li class="toggle">
-                            <a href="#Two">Learn CakePHP From Novice to Professional : Part 2</a>
-                            <p id="Two">
-                              Model-View-Controller Cake enforces an MVC structure for your web applications. Basically, it effectively separates typical operations into specific areas: MODELS : for all your database interaction VIEWS : for all your output and displays CONTROLLERS : for all your commands/scripts for input and program flow The typical PHP application mixes each of these three functions  <a href="http://webstutorial.com/learn-cakephp-novice-professional-part-2/framework">Read more...</a>
-                            </p>
-                          </li>
-                          <li class="toggle">
-                            <a href="#Three">Learn CakePHP From Novice to Professional : Part 1</a>
-                            <p id="Three">
-                              This guide is for beginners to CakePHP. Whether or not you have much experience with the PHP scripting language, working in Cake will require some new methods you may or may not have tried before. If you don't know what a "has-and-belongs-to-many" relationship is, don't know how to build your own class object, or don't  <a href="http://webstutorial.com/learn-cakephp-novice-professional-part-1/framework">Read more...</a>
-                            </p>
-                          </li>
+    </footer>
 
-                          <li class="toggle">
-                            <a href="#Four">Google Maps Server Side Geocoding Using PHP and Infobox Fully AJAX</a>
-                            <p id="Four">
-                              Recently I got a new project of real estate where I had to display about 1000 of projects on the google map. I was having the address of 1000 projects, so I started with my php and js code. When I coded and started testing, I found that on the map only 20-30 markers were  <a href="http://webstutorial.com/google-server-side-geocoding-php-infobox/website-tweaks/google">Read more...</a>
-                            </p>
-                          </li>
-
-                          <li class="toggle">
-                            <a href="#Five">Learn Codeigniter | Codeigniter Tutorial | Codeigniter Lessons | Part 1 | Webs Tutorial</a>
-                            <p id="Five">
-                              What is CodeIgniter? CodeIgniter is an open source PHP framework. This framework is used to build web applications and websites. CodeIgniter is best for developers who are into front-end development. It's easy to learn and it's fully flexibe. To learn CI (CodeIgniter), you should know PHP, MYSQL, OOPs and MVC. If you are new to  <a href="http://webstutorial.com/codeigniter-tutorials-codeigniter-lessons-part-1/programming/php">Read more...</a>
-                            </p>
-                          </li>
-                        </ul>
-
-                      </div>
-                    </section>
-                  </div>
-                </div><!--Accordion END -->
-              </div>
-
-
-            </div>
-            <!--Testimonial END-->
-
-
-            <!--Client Logo-->
-            <div class="logo_wrapper ">
-
-              <div class="row">
-                <div class="span12">
-                  <div class="section_header">
-                    <h1>Our  <b>Clients</b></h1>
-                    <h3>They have given us opportunity and we have stood on Their Expectation</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum 
-                      id tincidunt nunc faucibus. Ut neque eros,</p>
-
-                    </div>
-                    <div class="logoslide clearfix">
-                      <ul class="slider1">
-                        <li><img src="img/logo1.png" /></li>
-                        <li><img src="img/logo2.png" /></li>
-                        <li><img src="img/logo3.png" /></li>
-                        <li><img src="img/logo4.png" /></li>
-                        <li><img src="img/logo5.png" /></li>
-                        <li><img src="img/logo6.png" /></li>
-                        <li><img src="img/logo7.png" /></li>
-
-                      </ul>
-                    </div>
-
-
-
-
-                  </div>
-                </div>
-              </div>
-
-              <hr>
-
-              <footer>
-                <div class="footer_wrapper ">
-                  <div class="section_header">
-                    <h1>Get in  <b>Touch</b></h1>
-                    <h3>Get in Touch with us . We look Forward to Hear it From you.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum 
-                      id tincidunt nunc faucibus. Ut neque eros,</p>
-
-                    </div>
-
-
-
-                    <div class="span4 offset1">
-                      <div class="foot_topbar">
-                       <div class="foot_top_text">
-                         CATEGORIES
-
-                       </div>
-                       <div class="foot_body">
-                        <ul>
-                          <li>+ Learn HTML & CSS</li>
-                          <li>+ Teach Yourself Coding </li>
-                          <li>+ Knowled of PHP</li>
-                          <li>+ Custom Coding</li>
-                          <li>+ Full Size Documentation </li>
-                        </ul>
-
-                      </div>
-                    </div> 
-
-
-                  </div>
-                  <div class="span4">
-                   <div class="foot_topbar">
-
-
-                     <div class="foot_top_text">
-                      PHOTO-STREAM
-
-                    </div>
-                  </div>
-                  <div class="flickr_stream">
-                    <div id="flickr_badge_wrapper"><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=latest&size=s&layout=x&source=user&user=80307667@N04"></script></div>
-
-                  </div>
-
-
-
-                </div>
-
-                <div class="span4">
-                 <div class="foot_topbar">
-
-
-                   <div class="foot_top_text">
-                    Latest Tweets
-
-                  </div>
-                </div>
-                <div class="widget twitter-widget">
-
-                  <div class="tweet-post">
-                    <p>Check Out Dtbaker's Arduino Sales Notification System <a href="#">http://t.co/ WBFKIWHJ</a></p>
-                    <span>42 days ago</span>
-                  </div>
-                  <div class="tweet-post">
-                    <p>Community Superstar Winner – OrganicBeeMedia <a href="#"> http://t.co/2Fs1nnMj</a></p>
-                    <span>42 days ago</span>
-                  </div>
-                  <div class="tweet-post">
-                    <p>Check Out Dtbaker's Arduino Sales Notification System <a href="#">http://t.co/ WBFKIWHJ</a></p>
-                    <span>42 days ago</span>
-                  </div>
-                </div>
-
-
-              </div>
-
-
-
-            </div>
-            <div class="footer_bottom clearfix">
-              <div class="spna12">
-                <div class="footer_text">
-                  <p>Copyright <b>CODEHOUND</b> <br> All Right Reserved</p>
-                </div>
-                <div class="breadcrumbs">
-                  <ul class="breadcrumb">
-                    <li><a href="#">Home</a> <span class="divider">/</span></li>
-                    <li><a href="#">About </a> <span class="divider">/</span></li>
-                    <li><a href="#">Contact </a> <span class="divider">/</span></li>
-                    <li><a href="#">Services </a> <span class="divider">/</span></li>
-                    <li><a href="#">News </a> <span class="divider">/</span></li>
-                    <li><a href="#">Blog </a> <span class="divider">/</span></li>
-                    <li class="active">Data</li>
-                  </ul>
-                </div>
-              </div>
-
-            </div>
-
-
-          </footer>
-
-        </div> <!-- /container -->
+  </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="js/slider/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/slider/raphael-min.js"></script>
+    <script type="text/javascript" src="js/slider/jquery.easing.js"></script>
+
+    <script src="js/slider/iview.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('#iview').iView({
+        pauseTime: 7000,
+        pauseOnHover: true,
+        directionNavHoverOpacity: 0,
+        autoAdvance: false
+      });
+    });
+    </script>
+
+
+
+
+
     <script src="js/jquery.bxslider.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
       $('.slider1').bxSlider({
         slideWidth: 900,
-        minSlides: 4,
-        maxSlides: 5,
+        minSlides: 6,
+        maxSlides: 6,
         slideMargin: 10
       });
     });
@@ -616,7 +583,7 @@
 
   </script>
   <!--Js of Hover Direction-->
-  <script type="text/javascript" src="js/jquery.hoverdir.js"></script>  
+  <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
   <script type="text/javascript">
   $(function() {
 
@@ -626,38 +593,10 @@
   </script>
 
   <!--Js of Hover Direction End-->
-  <!--Top nav Js-->
-  <script src="js/superfish.js"></script>
-  <script>
 
 
 
-  $(document).ready(function(){
 
-        // initialise plugin
-        var example = $('#example').superfish({
-
-
-        });
-
-      });
-
-
-  </script>
-  <!--Top nav Js END-->
-
-  <script src="js/bootstrap-transition.js"></script>
-  <script src="js/bootstrap-alert.js"></script>
-  <script src="js/bootstrap-modal.js"></script>
-  <script src="js/bootstrap-dropdown.js"></script>
-  <script src="js/bootstrap-scrollspy.js"></script>
-  <script src="js/bootstrap-tab.js"></script>
-  <script src="js/bootstrap-tooltip.js"></script>
-  <script src="js/bootstrap-popover.js"></script>
-  <script src="js/bootstrap-button.js"></script>
-  <script src="js/bootstrap-collapse.js"></script>
-  <script src="js/bootstrap-carousel.js"></script>
-  <script src="js/bootstrap-typeahead.js"></script>
 
 </body>
 </html>

@@ -2,12 +2,13 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto:100");
 @import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:300");
 
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 body{
   background-color: white;
 
   font-size: 11px;
-  color:#454545;   
+  color:#454545;
   font-family: arial,serif,sans-serif;
   line-height: 15px;
 }
@@ -131,21 +132,21 @@ input[type=text]:focus{
 
 
 
-#nav-container{
+  #nav-container{
 
-  position: relative;
-  z-index: 900;
-}
-
-
+    position: relative;
+    z-index: 900;
+  }
 
 
-/*this css for the Portfolio*/
-.portfolio_wrapper{
- height: 950px;
- 
-}
-.section_header{
+
+
+  /*this css for the Portfolio*/
+  .portfolio_wrapper{
+   height: 950px;
+
+ }
+ .section_header{
   margin-left: 5.41%;
   margin-top: 9.89%;
   color: #6a6a6a;
@@ -210,7 +211,7 @@ input[type=text]:focus{
   background-color: #474948;
   margin-top: 5%;
   color: #2a92e5;
-  
+
 }
 .purchase_bar p{
 
@@ -243,75 +244,80 @@ input[type=text]:focus{
   text-shadow:1px 1px 14px #0d71c2;
   margin-left: 25%;
   margin-top: 4.5%;
-  }.pur_button:hover {
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0f5a94), color-stop(1, #5bb2f5) );
-    background:-moz-linear-gradient( center top, #0f5a94 5%, #5bb2f5 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f5a94', endColorstr='#5bb2f5');
-    background-color:#0f5a94;
-    }.pur_button:active {
-      position:relative;
-      top:1px;
-    }
-    /*this css for the direction aware hover END*/
-
-    /*This is css for the Features Circle */
+}
 
 
 
+.pur_button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0f5a94), color-stop(1, #5bb2f5) );
+  background:-moz-linear-gradient( center top, #0f5a94 5%, #5bb2f5 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f5a94', endColorstr='#5bb2f5');
+  background-color:#0f5a94;
+  }.pur_button:active {
+    position:relative;
+    top:1px;
+  }
+  /*this css for the direction aware hover END*/
+
+  /*This is css for the Features Circle */
 
 
-    #features .feature{
-
-      float: left;
-
-      background-color: rgb(42, 146, 229);
-      margin: 0px;
-      width: 25%;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s;
 
 
-    }
 
-      #features .feature:hover{
+  #features .feature{
 
-      -webkit-transform: scale(1.1, 1.05);
-      -moz-transform: scale(1.1, 1.05);
-      transform: scale(1.1, 1.05);
-      
-      -webkit-box-shadow: 0px 0px 20px #333;
-      -moz-box-shadow: 0px 0px 20px #333;
-      box-shadow: 0px 0px 20px #333;
+    float: left;
 
-
-    }
-
-    #features img{
-
-      width: 60%;
-      margin-right: 20%;
-      margin-left: 20%;
-      margin-top: 100px;
+    background-color: rgb(42, 146, 229);
+    margin: 0px;
+    width: 25%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 
 
-    }
+  }
 
-    #features .row{
+  #features .feature:hover{
 
-      margin: 0px;
-    }
+    -webkit-transform: scale(1.1, 1.05);
+    -moz-transform: scale(1.1, 1.05);
+    transform: scale(1.1, 1.05);
 
-    #features h2{
-     font-family: 'Roboto', sans-serif;
-     color: white;
-     margin-top: 60px;
-     text-align: center;
-
-   }
+    -webkit-box-shadow: 0px 0px 20px #333;
+    -moz-box-shadow: 0px 0px 20px #333;
+    box-shadow: 0px 0px 20px #333;
 
 
-   #features p{
+  }
+
+  #features img{
+
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 100px;
+
+
+  }
+
+  #features .row{
+
+    margin: 0px;
+  }
+
+  #features h2{
+    font-size: 32pt;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+
+  }
+
+
+  #features p{
     margin-top: 20px;
     font-size: 15pt;
     color: white;
@@ -323,8 +329,49 @@ input[type=text]:focus{
 
 
 
+  .port-caption{
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
 
 
+
+
+.logo{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+
+
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+
+}
+
+.logo img{
+
+  margin-left: auto;
+  margin-right: auto;
+   border-radius: 10px;
+
+  }
+
+
+.logo:hover{
+
+  -webkit-box-shadow: 0px 0px 10px #777;
+  -moz-box-shadow: 0px 0px 10px #777;
+  box-shadow: 0px 0px 10px #777;
+
+
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 
   /*This is css for the Features CircleE END*/
@@ -372,10 +419,11 @@ input[type=text]:focus{
   .logo_wrapper{
     height: 730px;
   }
+
   .logoslide{
+
     margin-left: 3%;
     margin-top: 10%;
-    overflow: hidden;
 
   }
   /*Accordion Css*/
@@ -393,13 +441,13 @@ input[type=text]:focus{
     background: #F26D5E;
     color: white;
   }
-  .accordion fieldset,img { 
+  .accordion fieldset,img {
     border:0;
   }
   .accordion ol,ul {
     list-style:none;
   }
-  .accordion h1,h2,h3,h4,h5,h6 {
+  .accordion h1, .accordion h2, .accordion h3,.accordion h4, .accordion h5, .accordion h6 {
     font-size:100%;
     font-weight:normal;
     margin: 0 0 25px;
@@ -583,7 +631,7 @@ input[type=text]:focus{
   text-shadow: 1px 0px 3px;
 }
 
-.accordion .toggle a { 
+.accordion .toggle a {
   color: #2a92e5;
   text-shadow: 1px 0px 1px;
   display: block;
@@ -603,7 +651,7 @@ input[type=text]:focus{
   height: 735px;
   background: url('../img/back3.png') repeat-x;
   padding-top: 3%;
-  
+
 }
 .footer_wrapper .section_header{
   color:white;
