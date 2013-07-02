@@ -9,7 +9,7 @@ body{
 
   font-size: 11px;
   color:#454545;
-  font-family: arial,serif,sans-serif;
+  
   line-height: 15px;
 }
 h1{font-size: 30px;}
@@ -44,7 +44,7 @@ ul,ol{
   list-style: none;
   margin: 0px;
 }
-input[type=text]:focus{
+input[type=text]:focus, textarea:focus{
   box-shadow:none;
 }
 .titlebar{
@@ -337,41 +337,41 @@ input[type=text]:focus{
 
 
 
-.logo{
+  .logo{
 
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-right: 10px;
-  margin-left: 10px;
-  border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
 
 
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
 
-}
+  }
 
-.logo img{
+  .logo img{
 
-  margin-left: auto;
-  margin-right: auto;
-   border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 
   }
 
 
-.logo:hover{
+  .logo:hover{
 
-  -webkit-box-shadow: 0px 0px 10px #777;
-  -moz-box-shadow: 0px 0px 10px #777;
-  box-shadow: 0px 0px 10px #777;
+    -webkit-box-shadow: 0px 0px 10px #777;
+    -moz-box-shadow: 0px 0px 10px #777;
+    box-shadow: 0px 0px 10px #777;
 
 
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  transform: scale(1.1);
-}
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
 
   /*This is css for the Features CircleE END*/
@@ -661,7 +661,6 @@ input[type=text]:focus{
 
 .foot_topbar{
   background-color: #151515;
-  height: 50px;
   border-bottom: 3px solid #fe2a2b;
 
 }
@@ -693,11 +692,10 @@ input[type=text]:focus{
 /*
 Images are wrapped in divs classed "flickr_badge_image" with ids "flickr_badge_imageX" where "X" is an integer specifying ordinal position. Below are some styles to get you started!
 */
-.flickr_badge_image {margin:0px;display:inline;}
-.flickr_badge_image img {border: 1px solid #666666 !important; padding:1px; margin:2px;}
-#flickr_badge_wrapper {width:300px;text-align:left}
+.flickr_badge_image {float: left; width: 33%;}
+.flickr_badge_image img {padding: 2px;}
+
 .flickr_stream{
-  margin-left: 13%;
 }
 
 /*Latest Tweets Twitter Widget*/
@@ -767,3 +765,82 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+
+footer{
+
+  color: #fff;
+  float: none;
+  padding: 20px 5%;
+  background-image: url(../img/footer-pattern.jpg);
+  background-repeat: repeat; 
+}
+
+.footer-section-header{
+
+  line-height: 35px;
+  padding: 10px 15px;
+  border-top: 6px solid #508ddd;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18pt;
+  color: white;
+  text-shadow: 0px 0px 1px white;
+  background-color: #000;
+  background-image: url(../img/footer-arrow.png);
+  background-position: 15px 0px;
+  background-repeat: no-repeat;
+
+}
+
+footer ul{
+  font-size: 11pt;
+  list-style: none;
+}
+
+footer li{
+ padding: 10px 0;
+ clear: both;
+ border-bottom: 1px solid gray;
+}
+
+footer li:before{
+
+  content: '+  ';
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+
+.footer-section-body{
+  padding: 15px 0; 
+}
+
+#footer-tweeter-feed li:before{
+
+  content: '';
+
+}
+
+#footer-tweeter-feed img{
+
+  float: left;
+
+}
+
+#footer-tweeter-feed p{
+
+  float: left;
+
+}
+
+footer input[type="text"], footer textarea{
+  width: 100%;
+  background-color: #555;
+  padding: 20px;
+  margin: 5px 0;
+  color: white;
+}
+

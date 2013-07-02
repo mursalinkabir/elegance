@@ -21,6 +21,13 @@ Dropdown Seperator: #960A09
 /* Bootstrap Overrides */
 
 
+
+.row{
+
+	margin: 0px;
+}
+
+
 .navbar{
 
 	margin-bottom: 0px;
@@ -248,6 +255,12 @@ hr{
 	margin-top: 0px;
 	margin-bottom: 30px;
 }
+
+.media-heading{
+
+	color: #508ddd;
+}
+
 
 
 @keyframes slideDown
