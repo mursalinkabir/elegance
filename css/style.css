@@ -28,10 +28,14 @@ ul,ol{
 }
 a{
   color: white;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
-a,a:hover{
+a:hover{
   text-decoration: none;
-  color: white;
+  color: #508ddd;
 
 }
 a:focus,
@@ -123,6 +127,12 @@ input[type=text]:focus, textarea:focus{
     left: auto;
   }
 
+
+  b.emph{
+    color: #508ddd;
+    font-weight: normal;
+  }
+
   /*<<<<<<<<<<<Top-Nav Css>>>>>>>>*/
 
   /** Google Webfonts  **/
@@ -204,16 +214,16 @@ input[type=text]:focus, textarea:focus{
   border-bottom: 1px solid rgba(255,255,255,0.5);
   box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
 }
-.purchase_bar{
+.purchase-bar{
 
   height:100px;
   width:100%;
   background-color: #474948;
-  margin-top: 5%;
+  margin-top: 0;
   color: #2a92e5;
 
 }
-.purchase_bar p{
+.purchase-bar p{
 
   text-align: left;
   line-height: 94px;
@@ -221,7 +231,7 @@ input[type=text]:focus, textarea:focus{
   margin-left: 3.5%;
   text-shadow:2px 2px 14px #2a92e5;
 }
-.pur_button {
+.pur-button {
   -moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
   -webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
   box-shadow:inset 0px 1px 0px 0px #bbdaf7;
@@ -248,292 +258,431 @@ input[type=text]:focus, textarea:focus{
 
 
 
-.pur_button:hover {
+.pur-button:hover {
   background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0f5a94), color-stop(1, #5bb2f5) );
   background:-moz-linear-gradient( center top, #0f5a94 5%, #5bb2f5 100% );
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f5a94', endColorstr='#5bb2f5');
   background-color:#0f5a94;
-  }.pur_button:active {
-    position:relative;
-    top:1px;
-  }
-  /*this css for the direction aware hover END*/
-
-  /*This is css for the Features Circle */
+}
 
 
 
+.pur-button:active {
+  position:relative;
+  top:1px;
+}
+/*this css for the direction aware hover END*/
 
-
-  #features .feature{
-
-    float: left;
-
-    background-color: rgb(42, 146, 229);
-    margin: 0px;
-    width: 25%;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-
-
-  }
-
-  #features .feature:hover{
-
-    -webkit-transform: scale(1.1, 1.05);
-    -moz-transform: scale(1.1, 1.05);
-    transform: scale(1.1, 1.05);
-
-    -webkit-box-shadow: 0px 0px 20px #333;
-    -moz-box-shadow: 0px 0px 20px #333;
-    box-shadow: 0px 0px 20px #333;
-
-
-  }
-
-  #features img{
-
-    width: 60%;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 100px;
-
-
-  }
-
-  #features .row{
-
-    margin: 0px;
-  }
-
-  #features h2{
-    font-size: 32pt;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin-top: 60px;
-    text-align: center;
-
-  }
-
-
-  #features p{
-    margin-top: 20px;
-    font-size: 15pt;
-    color: white;
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-bottom: 80px;
-    padding: 0px 30px;
-  }
-
-
-
-  .port-caption{
-    padding: 10px;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
+/*This is css for the Features Circle */
 
 
 
 
-  .logo{
 
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 10px;
+#features .feature{
 
+  float: left;
 
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-
-  }
-
-  .logo img{
-
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-
-  }
+  background-color: rgb(42, 146, 229);
+  margin: 0px;
+  width: 25%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 
 
-  .logo:hover{
+}
 
-    -webkit-box-shadow: 0px 0px 10px #777;
-    -moz-box-shadow: 0px 0px 10px #777;
-    box-shadow: 0px 0px 10px #777;
+#features .feature:hover{
 
+  -webkit-transform: scale(1.1, 1.05);
+  -moz-transform: scale(1.1, 1.05);
+  transform: scale(1.1, 1.05);
 
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-
-  /*This is css for the Features CircleE END*/
+  -webkit-box-shadow: 0px 0px 20px #333;
+  -moz-box-shadow: 0px 0px 20px #333;
+  box-shadow: 0px 0px 20px #333;
 
 
-  .testimonial img{
+}
 
-    float: left;
-    margin-right: 3%;
-    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255);
-    width: 110px;
-    height: 110px;
-    margin-top: 2%;
-    margin-left: 1.2%;
+#features img{
 
-  }
-  .testimonial{
-    margin-top: 5%;
-    margin-left: 3%;
-    background-position: 19.5% 12%;
-    background-image: url("../img/quote1.png");
-    background-repeat: no-repeat;
-    background-color: #2a92e5;
-    border-radius: 7px;
-    -webkit-box-shadow: 2px 2px 15px rgba(50, 50, 50, 0.84);
-    -moz-box-shadow:    2px 2px 15px rgba(50, 50, 50, 0.84);
-    box-shadow:         2px 2px 15px rgba(50, 50, 50, 0.84);
-    height: 148px;
-    width: 637px;
-  }
-  .testimonial .testitext{
-    margin-top: 3%;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    line-height: 2em;
-
-    background-position: 82% 72%;
-    background-image: url("../img/quote2.png");
-    background-repeat: no-repeat;
-    height: 120px;
-    width: 645px;
-    padding-top: 3%;
-  }
-  .logo_wrapper{
-    height: 730px;
-  }
-
-  .logoslide{
-
-    margin-left: 3%;
-    margin-top: 10%;
-
-  }
-  /*Accordion Css*/
-  @font-face {
-    font-family: 'BebasNeueRegular';
-    src: url('fonts/BebasNeue-webfont.eot');
-    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/BebasNeue-webfont.woff') format('woff'),
-    url('fonts/BebasNeue-webfont.ttf') format('truetype'),
-    url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-  }
-  *::-moz-selection {
-    background: #F26D5E;
-    color: white;
-  }
-  .accordion fieldset,img {
-    border:0;
-  }
-  .accordion ol,ul {
-    list-style:none;
-  }
-  .accordion h1, .accordion h2, .accordion h3,.accordion h4, .accordion h5, .accordion h6 {
-    font-size:100%;
-    font-weight:normal;
-    margin: 0 0 25px;
-  }
-  /* General Demo Style */
-
-  .accordion .ie7 body{
-    overflow:hidden;
-  }
-  .accordion a{
-    text-decoration: none;
-    outline:none;
-  }
-  .accordion .container{
-    width: 100%;
-    position: relative;
-    text-align: center;
-  }
-  .accordion .clr{
-    clear: both;
-  }
-  .accordion .container > header{
-    padding: 20px 30px 10px 30px;
-    margin: 0px 20px 10px 20px;
-    position: relative;
-    display: block;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-    text-align: center;
-  }
-  .accordion .container > header h1{
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
-    line-height: 35px;
-    position: relative;
-    font-weight: 400;
-    color: #186f8f;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-    padding: 0px 0px 5px 0px;
-  }
-  .accordion .container > header h1 span{
-    color: #2ea2cd;
-    text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
-  }
-  .accordion .container > header h2, p.info{
-    font-size: 16px;
-    font-style: italic;
-    color: #4a3124;
-    text-shadow: 0px 1px 1px rgba(255,255,255,1);
-  }
-  .accordion #container_buttons{
-    width: 100%;
-
-    border-radius: 20px;
-    /*box-shadow: 1px 1px 1px rgba(0,0,0,0.09) inset;*/
-  }
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 100px;
 
 
-  .accordion .toggle {
-    background-color:#rgb(118, 125, 128);
-    font-family: 'Open Sans', sans-serif;
-    font-size:12px;
-    text-align: left;
-    text-decoration:none;
-    color:#fff;
-    position:relative;
-    border-left:solid 1px #solid 1px rgb(203, 220, 226);
-    margin-left:35px;
-    background-image: linear-gradient(bottom, transparent 0%, transparent 100%);
-    background-image: -o-linear-gradient(bottom, transparent 0%, transparent 100%);
-    background-image: -moz-linear-gradient(bottom, transparent 0%, transparent 100%);
-    background-image: -webkit-linear-gradient(bottom, transparent 0%, transparent 100%);
-    background-image: -ms-linear-gradient(bottom, transparent 0%, transparent 100%);
-    width: 95%;
-    background-image: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      color-stop(0, transparent),
-      color-stop(1, transparent)
-      );
-    -webkit-border-top-right-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-radius-topright: 5px;
-    -moz-border-radius-bottomright: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+}
+
+#features .row{
+
+  margin: 0px;
+}
+
+#features h2{
+  font-size: 32pt;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-top: 60px;
+  text-align: center;
+
+}
+
+
+#features p{
+  margin-top: 20px;
+  font-size: 15pt;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 80px;
+  padding: 0px 30px;
+}
+
+
+
+
+.portfolio-grid {
+  padding: 20px 0;
+
+  list-style: none;
+  text-align: center;
+}
+
+.portfolio-grid li {
+  display: block;
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.portfolio-grid figure {
+  margin: 0;
+  position: relative;
+}
+
+.portfolio-grid figure img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.portfolio-grid figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background: #2c3f52;
+  color: #777;
+}
+
+.portfolio-grid figcaption h3 {
+  margin: 0;
+  padding: 0;
+  color: #2c3f52;
+  font-family: "Roboto", sans-serif;
+}
+
+.portfolio-grid figcaption span:before {
+  content: 'by ';
+}
+
+.portfolio-grid figcaption a {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 2px;
+  display: inline-block;
+  background: #508ddd;
+  color: #fff;
+}
+
+/* Individual Caption Styles */
+
+
+
+/* Caption Style 7 */
+/*.portfolio-grid li:first-child { z-index: 6; }
+.portfolio-grid li:nth-child(2) { z-index: 5; }
+.portfolio-grid li:nth-child(3) { z-index: 4; }
+.portfolio-grid li:nth-child(4) { z-index: 3; }
+.portfolio-grid li:nth-child(5) { z-index: 2; }
+.portfolio-grid li:nth-child(6) { z-index: 1; }*/
+
+.portfolio-grid figure img {
+  z-index: 10;
+}
+
+.portfolio-grid figcaption img {
+  z-index: 0;
+}
+
+
+.portfolio-grid figcaption {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+  -moz-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+  transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0 0 0px #2c3f52;
+}
+
+.no-touch .portfolio-grid figure:hover figcaption,
+.portfolio-grid figure.cs-hover figcaption {
+  opacity: 1;
+  height: 130%;
+  box-shadow: 0 0 0 13px #2c3f52;
+}
+
+.portfolio-grid figcaption h3 {
+  margin-top: 86%;
+}
+
+.portfolio-grid figcaption h3,
+.portfolio-grid figcaption span,
+.portfolio-grid figcaption a {
+  opacity: 1;
+  -webkit-transition: opacity 0s;
+  -moz-transition: opacity 0s;
+  transition: opacity 0s;
+}
+
+.portfolio-grid figcaption a {
+  position: absolute;
+  bottom: 20px;
+  right: 2px;
+}
+
+.no-touch .portfolio-grid figure:hover figcaption h3,
+.no-touch .portfolio-grid figure:hover figcaption span,
+.no-touch .portfolio-grid figure:hover figcaption a,
+.portfolio-grid figure.cs-hover figcaption h3,
+.portfolio-grid figure.cs-hover figcaption span,
+.portfolio-grid figure.cs-hover figcaption a {
+  -webkit-transition: color 0.3s 0.2s;
+  -moz-transition: color 0.3s 0.2s;
+  transition: color 0.3s 0.2s;
+  color: white;
+  opacity: 1;
+}
+
+
+
+
+
+.port-caption{
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+.logo{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+
+
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+
+}
+
+.logo img{
+
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+
+}
+
+
+.logo:hover{
+
+  -webkit-box-shadow: 0px 0px 10px #777;
+  -moz-box-shadow: 0px 0px 10px #777;
+  box-shadow: 0px 0px 10px #777;
+
+
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+/*This is css for the Features CircleE END*/
+
+
+.testimonial img{
+
+  float: left;
+  margin-right: 3%;
+  box-shadow: 1px 1px 10px 1px rgb(255, 255, 255);
+  width: 110px;
+  height: 110px;
+  margin-top: 2%;
+  margin-left: 1.2%;
+
+}
+.testimonial{
+  margin-top: 5%;
+  margin-left: 3%;
+  background-position: 19.5% 12%;
+  background-image: url("../img/quote1.png");
+  background-repeat: no-repeat;
+  background-color: #2a92e5;
+  border-radius: 7px;
+  -webkit-box-shadow: 2px 2px 15px rgba(50, 50, 50, 0.84);
+  -moz-box-shadow:    2px 2px 15px rgba(50, 50, 50, 0.84);
+  box-shadow:         2px 2px 15px rgba(50, 50, 50, 0.84);
+  height: 148px;
+  width: 637px;
+}
+.testimonial .testitext{
+  margin-top: 3%;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 2em;
+
+  background-position: 82% 72%;
+  background-image: url("../img/quote2.png");
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 645px;
+  padding-top: 3%;
+}
+.logo_wrapper{
+  height: 730px;
+}
+
+.logoslide{
+
+  margin-left: 3%;
+  margin-top: 10%;
+
+}
+/*Accordion Css*/
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('fonts/BebasNeue-webfont.eot');
+  src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/BebasNeue-webfont.woff') format('woff'),
+  url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+  url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*::-moz-selection {
+  background: #F26D5E;
+  color: white;
+}
+.accordion fieldset,img {
+  border:0;
+}
+.accordion ol,ul {
+  list-style:none;
+}
+.accordion h1, .accordion h2, .accordion h3,.accordion h4, .accordion h5, .accordion h6 {
+  font-size:100%;
+  font-weight:normal;
+  margin: 0 0 25px;
+}
+/* General Demo Style */
+
+.accordion .ie7 body{
+  overflow:hidden;
+}
+.accordion a{
+  text-decoration: none;
+  outline:none;
+}
+.accordion .container{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.accordion .clr{
+  clear: both;
+}
+.accordion .container > header{
+  padding: 20px 30px 10px 30px;
+  margin: 0px 20px 10px 20px;
+  position: relative;
+  display: block;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.accordion .container > header h1{
+  font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+  position: relative;
+  font-weight: 400;
+  color: #186f8f;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  padding: 0px 0px 5px 0px;
+}
+.accordion .container > header h1 span{
+  color: #2ea2cd;
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+.accordion .container > header h2, p.info{
+  font-size: 16px;
+  font-style: italic;
+  color: #4a3124;
+  text-shadow: 0px 1px 1px rgba(255,255,255,1);
+}
+.accordion #container_buttons{
+  width: 100%;
+
+  border-radius: 20px;
+  /*box-shadow: 1px 1px 1px rgba(0,0,0,0.09) inset;*/
+}
+
+
+.accordion .toggle {
+  background-color:#rgb(118, 125, 128);
+  font-family: 'Open Sans', sans-serif;
+  font-size:12px;
+  text-align: left;
+  text-decoration:none;
+  color:#fff;
+  position:relative;
+  border-left:solid 1px #solid 1px rgb(203, 220, 226);
+  margin-left:35px;
+  background-image: linear-gradient(bottom, transparent 0%, transparent 100%);
+  background-image: -o-linear-gradient(bottom, transparent 0%, transparent 100%);
+  background-image: -moz-linear-gradient(bottom, transparent 0%, transparent 100%);
+  background-image: -webkit-linear-gradient(bottom, transparent 0%, transparent 100%);
+  background-image: -ms-linear-gradient(bottom, transparent 0%, transparent 100%);
+  width: 95%;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, transparent),
+    color-stop(1, transparent)
+    );
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   /*
   -webkit-box-shadow: inset 0px 1px 0px rgb(238, 239, 240), 0px 5px 0px 0px rgb(63, 69, 71), 0px 10px 5px rgb(145, 141, 141);
   -moz-box-shadow: inset 0px 1px 0px rgb(238, 239, 240), 0px 5px 0px 0px rgb(63, 69, 71), 0px 10px 5px rgb(145, 141, 141);
@@ -693,58 +842,32 @@ input[type=text]:focus, textarea:focus{
 Images are wrapped in divs classed "flickr_badge_image" with ids "flickr_badge_imageX" where "X" is an integer specifying ordinal position. Below are some styles to get you started!
 */
 .flickr_badge_image {float: left; width: 33%;}
-.flickr_badge_image img {padding: 2px;}
+
+
+
+
+.flickr_badge_image img {
+
+  box-shadow : inset 0px 0px 10px transparent;
+
+  -webkit-transition: border 0.3s;
+
+}
+
+.flickr_badge_image img:hover {
+
+
+
+
+
+
+}
+
+
 
 .flickr_stream{
 }
 
-/*Latest Tweets Twitter Widget*/
-.twitter-widget div:after {
-  content: '';
-  position: absolute;
-  width: 30px;
-  height: 4px;
-  background: url('img/twitter-widget.png') center center no-repeat;
-  top: 4px;
-  left: 0px;
-  transition: all 0.18s ease-in-out;
-  -moz-transition: all 0.18s ease-in-out;
-  -webkit-transition: all 0.18s ease-in-out;
-  -o-transition: all 0.18s ease-in-out;
-}
-.twitter-widget div:hover:after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 15px;
-  background: url('img/twitter-widget-hover.png') center center no-repeat;
-  top: 4px;
-  left: 0px;
-  z-index: 55;
-}
-
-.twitter-widget div p {
-  color: white;
-}
-
-.twitter-widget div p a {
-  color: #999999;
-  transition: color 0.18s ease-in-out ;
-  -moz-transition: color 0.18s ease-in-out ;
-  -webkit-transition: color 0.18s ease-in-out ;
-  -o-transition: color 0.18s ease-in-out;
-}
-
-.twitter-widget div p a:hover {
-  color: #cc3d3d;
-}
-
-.twitter-widget div span {
-  color: #c1c1c1;
-  font-style: italic;
-  font-size: 11px;
-  line-height: 20px;
-}
 .footer_bottom{
   height: 60px;
   background-color: black;
@@ -771,42 +894,55 @@ img {
 footer{
 
   color: #fff;
-  float: none;
-  padding: 20px 5%;
-  background-image: url(../img/footer-pattern.jpg);
+  loat: none;
+  width: 100%;
+  background: rgb(77,72,81); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(77,72,81,1) 0%, rgba(17,15,22,1) 0%, rgba(34,34,38,1) 49%, rgba(17,15,22,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(77,72,81,1)), color-stop(0%,rgba(17,15,22,1)), color-stop(49%,rgba(34,34,38,1)), color-stop(100%,rgba(17,15,22,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(77,72,81,1) 0%,rgba(17,15,22,1) 0%,rgba(34,34,38,1) 49%,rgba(17,15,22,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(77,72,81,1) 0%,rgba(17,15,22,1) 0%,rgba(34,34,38,1) 49%,rgba(17,15,22,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(77,72,81,1) 0%,rgba(17,15,22,1) 0%,rgba(34,34,38,1) 49%,rgba(17,15,22,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(77,72,81,1) 0%,rgba(17,15,22,1) 0%,rgba(34,34,38,1) 49%,rgba(17,15,22,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4851', endColorstr='#110f16',GradientType=0 ); /* IE6-9 */
+}
+
+#footer-header-wrapper{
+
+  background-image: url(../img/footer-header-pattern.png);
   background-repeat: repeat; 
+  padding: 0 5%;
+  border-top: 4px solid #508ddd;
 }
 
-.footer-section-header{
+#footer-header{
 
-  line-height: 35px;
-  padding: 10px 15px;
-  border-top: 6px solid #508ddd;
-  text-transform: uppercase;
-  text-align: left;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 18pt;
-  color: white;
-  text-shadow: 0px 0px 1px white;
-  background-color: #000;
-  background-image: url(../img/footer-arrow.png);
-  background-position: 15px 0px;
-  background-repeat: no-repeat;
+ line-height: 50px;
+ font-family: 'PT Sans', sans-serif;
+ font-size: 18pt;
+ text-align: left;
+ text-transform: uppercase;
+ text-shadow: 0px 0px 1px white;
 
 }
 
-footer ul{
+#footer-body{
+
+  margin: 0 5%;
+  width: 90%;
+}
+
+footer #footer-body ul{
   font-size: 11pt;
   list-style: none;
 }
 
-footer li{
+footer #footer-body li{
  padding: 10px 0;
  clear: both;
  border-bottom: 1px solid gray;
 }
 
-footer li:before{
+#footer-categories li:before{
 
   content: '+  ';
   font-size: 18pt;
@@ -818,11 +954,7 @@ footer li:before{
   padding: 15px 0; 
 }
 
-#footer-tweeter-feed li:before{
 
-  content: '';
-
-}
 
 #footer-tweeter-feed img{
 
@@ -844,3 +976,105 @@ footer input[type="text"], footer textarea{
   color: white;
 }
 
+
+#footer-bottom *{
+  margin: 0px;
+}
+
+
+#footer-bottom{
+  background-color: #000;
+  width: 100%;
+  padding:0 5%;
+}
+
+#footer-brand{
+
+  font-size: 1.5em;
+}
+
+#footer-bottom nav .breadcrumb{
+  background-color: transparent;
+  text-align: right; 
+  font-size: 10pt;
+}
+
+#footer-bottom #footer-bottom-left{
+
+  padding: 8px 0;
+
+}
+
+
+
+/*    About Page    */
+
+
+section header{
+
+  margin: 20px 5%;
+
+}
+
+section header h1, 
+section header h2,
+section header h3,
+section header h4,
+section header h5,
+section header h6
+{
+
+  margin-bottom: 10px;
+  line-height: 50px;
+  
+}
+
+section header p{
+  margin-bottom: 10px;
+  font-size: 12pt;
+}
+
+section#about-main{
+
+  background-color: #f5f5f5;
+  padding: 50px 10%;
+}
+
+section#about-main h1, section#about-main p{
+  text-align: center;
+}
+
+
+section#about-main h1{
+
+  font-family: 'Cabin', sans-serif;
+  margin-top: 70px;
+  line-height: 30px;
+  padding: 10px;
+}
+
+
+section#about-main p{
+  font-size: 12pt;
+  padding: 10px 50px;
+  line-height: 20px;
+}
+
+
+#team{
+
+  margin-bottom: 200px;
+}
+
+#team .portfolio-grid{
+
+  margin: 20px 120px;
+}
+
+
+
+#team .portfolio-grid li {
+ 
+  width: 33.333333%;
+ 
+}
